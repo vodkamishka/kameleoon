@@ -1,0 +1,76 @@
+@import '../../index.sass'
+
+.board
+  font-size: 12px
+  padding: 15px 15px 15px 10px
+  border: 1px solid $border-grey
+  background: $white
+  border-radius: 3px
+  margin-bottom: 5px
+  display: flex
+  align-items: center
+  height: 70px
+  position: relative
+
+  &:before
+    content: ''
+    display: block
+    width: 4px
+    height: 70px
+    position: absolute
+    left: -1px
+    top: -1px
+    border-radius: 3px 0px 0px 3px
+
+  &:nth-child(1):before
+    background: $red
+  &:nth-child(2):before
+    background: $light-blue
+  &:nth-child(3):before
+    background: $blue
+  &:nth-child(4):before
+    background: $red
+  &:nth-child(5):before
+    background: $red
+  &:nth-child(6):before
+    background: $red
+  &:nth-child(7):before
+    background: $light-blue
+
+  &:hover
+    box-shadow: 0px 0px 20px 0px $shadow-color
+
+
+.board_column
+
+  font-size: 12px
+  line-height: 14px
+  font-weight: normal
+  color: #5C5C5C
+
+  &:nth-child(1)
+    width: 425px
+    font-size: 13px
+    color: #474747
+    line-height: 15px
+    font-weight: 500
+
+  &:nth-child(2)
+    width: 125px
+    line-height: 14.06px
+
+  &:nth-child(3)
+    width: 109px
+
+  &:nth-child(4)
+    width: 177px
+
+.board_button
+  width: 95px
+  height: 30px
+  font-size: 12px
+  line-height: 15px
+  color: $white
+  border-radius: 10px
+  border: none
+  font-family: Montserrat
