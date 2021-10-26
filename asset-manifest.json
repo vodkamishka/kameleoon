@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kameleoon/static/css/main.58b2b0dc.chunk.css",
+    "main.js": "/kameleoon/static/js/main.0aa6bb09.chunk.js",
+    "main.js.map": "/kameleoon/static/js/main.0aa6bb09.chunk.js.map",
+    "runtime-main.js": "/kameleoon/static/js/runtime-main.cfd1e645.js",
+    "runtime-main.js.map": "/kameleoon/static/js/runtime-main.cfd1e645.js.map",
+    "static/js/2.f0b6f0d0.chunk.js": "/kameleoon/static/js/2.f0b6f0d0.chunk.js",
+    "static/js/2.f0b6f0d0.chunk.js.map": "/kameleoon/static/js/2.f0b6f0d0.chunk.js.map",
+    "index.html": "/kameleoon/index.html",
+    "static/css/main.58b2b0dc.chunk.css.map": "/kameleoon/static/css/main.58b2b0dc.chunk.css.map",
+    "static/js/2.f0b6f0d0.chunk.js.LICENSE.txt": "/kameleoon/static/js/2.f0b6f0d0.chunk.js.LICENSE.txt",
+    "static/media/footer.sass": "/kameleoon/static/media/Roboto-Regular.cfe3602c.ttf",
+    "static/media/chevron.b52c3203.svg": "/kameleoon/static/media/chevron.b52c3203.svg",
+    "static/media/search.5a18a1eb.svg": "/kameleoon/static/media/search.5a18a1eb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cfd1e645.js",
+    "static/js/2.f0b6f0d0.chunk.js",
+    "static/css/main.58b2b0dc.chunk.css",
+    "static/js/main.0aa6bb09.chunk.js"
+  ]
+}
